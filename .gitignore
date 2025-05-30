@@ -28,9 +28,6 @@ build/
 ehthumbs.db
 Thumbs.db
 
-# Tailwind CSS build files
-src/styles/output.css
-
 # Temporary files
 *.tmp
 *.temp 
