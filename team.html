@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team - Personic Medical</title>
+    <meta name="description" content="Meet our team of experienced healthcare professionals at Personic Medical, dedicated to providing comprehensive, patient-centered care.">
+    
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="./src/styles/output.css">
+    
+    <!-- Favicon (placeholder) -->
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="bg-white shadow-sm">
+        <nav class="container-custom py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <a href="index.html" class="text-2xl font-heading font-bold text-primary">Personic Medical</a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="services.html" class="nav-link">Services</a>
+                    <a href="team.html" class="nav-link text-primary-dark">Team</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </div>
+                <div class="hidden md:block">
+                    <a href="contact.html" class="btn-primary">Book Consultation</a>
+                </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-primary focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile menu -->
+            <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4">
+                <div class="flex flex-col space-y-4">
+                    <a href="services.html" class="nav-link">Services</a>
+                    <a href="team.html" class="nav-link text-primary-dark">Team</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                    <a href="contact.html" class="btn-primary inline-block text-center">Book Consultation</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="bg-background-light py-12">
+        <div class="container-custom">
+            <div class="max-w-3xl">
+                <h1 class="text-4xl md:text-5xl font-heading font-bold text-primary-dark mb-6">
+                    Our Healthcare Team
+                </h1>
+                <p class="text-xl text-text-light leading-relaxed">
+                    Meet our dedicated team of healthcare professionals committed to providing exceptional, personalized care for every patient.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Introduction -->
+    <section class="py-16">
+        <div class="container-custom">
+            <div class="max-w-4xl mx-auto text-center mb-16">
+                <h2 class="text-3xl font-heading font-semibold text-primary-dark mb-6">
+                    Experienced Professionals, Compassionate Care
+                </h2>
+                <p class="text-lg text-text-light leading-relaxed">
+                    Our multidisciplinary team brings together years of experience, advanced training, and a shared commitment to evidence-based medicine. We work collaboratively to ensure you receive comprehensive, coordinated care that addresses all aspects of your health and well-being.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Medical Team -->
+    <section class="accent-section accent-section-warm">
+        <div class="container-custom">
+            <h2 class="text-3xl font-heading font-semibold text-primary-dark mb-12 text-center">
+                Medical Team
+            </h2>
+            
+            <div class="grid md:grid-cols-2 gap-8 mb-12">
+                <!-- Dr. Sarah Johnson -->
+                <div class="card">
+                    <div class="flex flex-col items-center text-center">
+                        <div class="w-32 h-32 bg-primary-light rounded-full mb-6 flex items-center justify-center">
+                            <svg class="w-16 h-16 text-primary" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-heading font-semibold text-primary-dark mb-2">
+                            Dr. Sarah Johnson, MD
+                        </h3>
+                        <p class="text-primary font-medium mb-4">Medical Director & Primary Care Physician</p>
+                        <p class="text-text-light leading-relaxed mb-4">
+                            Board-certified in Internal Medicine with over 15 years of experience in comprehensive primary care. Dr. Johnson specializes in preventive medicine and chronic disease management.
+                        </p>
+                        <div class="text-sm text-text-light">
+                            <p class="font-medium text-primary-dark mb-2">Education & Certifications:</p>
+                            <ul class="text-left space-y-1">
+                                <li>• MD - Johns Hopkins School of Medicine</li>
+                                <li>• Residency - Internal Medicine, Mayo Clinic</li>
+                                <li>• Board Certified - Internal Medicine</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dr. Michael Chen -->
+                <div class="card">
+                    <div class="flex flex-col items-center text-center">
+                        <div class="w-32 h-32 bg-primary-light rounded-full mb-6 flex items-center justify-center">
+                            <svg class="w-16 h-16 text-primary" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-heading font-semibold text-primary-dark mb-2">
+                            Dr. Michael Chen, MD
+                        </h3>
+                        <p class="text-primary font-medium mb-4">Specialist Physician</p>
+                        <p class="text-text-light leading-relaxed mb-4">
+                            Specialized in metabolic medicine and cardiovascular health with expertise in diabetes management and heart disease prevention.
+                        </p>
+                        <div class="text-sm text-text-light">
+                            <p class="font-medium text-primary-dark mb-2">Education & Certifications:</p>
+                            <ul class="text-left space-y-1">
+                                <li>• MD - Stanford University School of Medicine</li>
+                                <li>• Fellowship - Endocrinology, UCSF</li>
+                                <li>• Board Certified - Endocrinology</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clinical Team -->
+    <section class="py-16">
+        <div class="container-custom">
+            <h2 class="text-3xl font-heading font-semibold text-primary-dark mb-12 text-center">
+                Clinical Team
+            </h2>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Lisa Rodriguez, RN -->
+                <div class="card text-center">
+                    <div class="w-24 h-24 bg-secondary rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <svg class="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-heading font-semibold text-primary-dark mb-2">Lisa Rodriguez, RN</h3>
+                    <p class="text-primary font-medium mb-3">Clinical Care Coordinator</p>
+                    <p class="text-text-light text-sm leading-relaxed">
+                        Registered Nurse with 12 years of experience in patient care coordination and health education. Specializes in chronic disease management support.
+                    </p>
+                </div>
+
+                <!-- James Martinez, PA-C -->
+                <div class="card text-center">
+                    <div class="w-24 h-24 bg-secondary rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <svg class="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-heading font-semibold text-primary-dark mb-2">James Martinez, PA-C</h3>
+                    <p class="text-primary font-medium mb-3">Physician Assistant</p>
+                    <p class="text-text-light text-sm leading-relaxed">
+                        Certified Physician Assistant providing comprehensive primary care services including routine examinations and preventive care.
+                    </p>
+                </div>
+
+                <!-- Emily Thompson, RD -->
+                <div class="card text-center">
+                    <div class="w-24 h-24 bg-secondary rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <svg class="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-heading font-semibold text-primary-dark mb-2">Emily Thompson, RD</h3>
+                    <p class="text-primary font-medium mb-3">Registered Dietitian</p>
+                    <p class="text-text-light text-sm leading-relaxed">
+                        Licensed dietitian specializing in medical nutrition therapy and lifestyle medicine approaches to health and wellness.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support Team -->
+    <section class="accent-section accent-section-light">
+        <div class="container-custom">
+            <h2 class="text-3xl font-heading font-semibold text-primary-dark mb-8 text-center">
+                Our Support Team
+            </h2>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="card">
+                    <div class="text-center">
+                        <h3 class="text-xl font-heading font-semibold text-primary mb-4">
+                            Dedicated to Your Experience
+                        </h3>
+                        <p class="text-text-light leading-relaxed mb-6">
+                            Our experienced support team includes medical assistants, patient coordinators, and administrative staff who work together to ensure your visit is smooth, comfortable, and efficient. From scheduling appointments to coordinating care between providers, our team is here to support you every step of the way.
+                        </p>
+                        
+                        <div class="grid md:grid-cols-2 gap-8 mt-8">
+                            <div>
+                                <h4 class="font-heading font-medium text-primary-dark mb-3">Patient Care Services</h4>
+                                <ul class="text-left space-y-2 text-text-light">
+                                    <li>• Appointment scheduling and coordination</li>
+                                    <li>• Insurance verification and billing support</li>
+                                    <li>• Medical records management</li>
+                                    <li>• Patient education and resources</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 class="font-heading font-medium text-primary-dark mb-3">Clinical Support</h4>
+                                <ul class="text-left space-y-2 text-text-light">
+                                    <li>• Vital signs and basic assessments</li>
+                                    <li>• Laboratory specimen collection</li>
+                                    <li>• Procedure assistance and preparation</li>
+                                    <li>• Follow-up care coordination</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="accent-section accent-section-warm">
+        <div class="container-custom text-center">
+            <h2 class="text-3xl font-heading font-semibold text-primary-dark mb-4">
+                Experience Personalized Healthcare
+            </h2>
+            <p class="text-lg text-text-light mb-8 max-w-2xl mx-auto">
+                Our team is ready to partner with you on your health journey. Schedule a consultation to experience our collaborative approach to healthcare.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="contact.html" class="btn-primary">Schedule Consultation</a>
+                <a href="services.html" class="btn-secondary">View Our Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary-dark text-white py-8">
+        <div class="container-custom">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="font-heading font-semibold text-lg mb-4">Personic Medical</h3>
+                    <p class="text-gray-300 mb-4">
+                        Providing comprehensive, patient-centered healthcare with evidence-based treatments.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="font-heading font-semibold mb-4">Contact Info</h4>
+                    <div class="space-y-2 text-gray-300">
+                        <p>📞 (555) 123-4567</p>
+                        <p>✉️ info@personicmedical.com</p>
+                        <p>📍 123 Healthcare Ave, Medical District</p>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-heading font-semibold mb-4">Hours</h4>
+                    <div class="space-y-1 text-gray-300 text-sm">
+                        <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
+                        <p>Saturday: 9:00 AM - 1:00 PM</p>
+                        <p>Sunday: Closed</p>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-600 mt-8 pt-4 text-center">
+                <p class="text-gray-400 text-sm">
+                    © 2024 Personic Medical. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile menu functionality -->
+    <script>
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html> 

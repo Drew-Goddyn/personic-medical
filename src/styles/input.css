@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Nunito+Sans:wght@400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom base styles */
+@layer base {
+  html {
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  }
+  
+  body {
+    @apply text-text leading-relaxed bg-background;
+  }
+}
+
+/* Custom component styles */
+@layer components {
+  /* Container */
+  .container-custom {
+    @apply max-w-7xl mx-auto px-6 lg:px-8;
+  }
+
+  /* Typography */
+  .font-heading {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  /* Navigation */
+  .nav-link {
+    @apply text-text hover:text-primary transition-colors duration-normal font-medium;
+  }
+
+  /* Buttons */
+  .btn-primary {
+    @apply bg-primary text-white px-6 py-3 rounded-lg font-heading font-semibold hover:bg-primary-dark transition-all duration-normal shadow-md hover:shadow-lg inline-flex items-center justify-center;
+  }
+
+  .btn-secondary {
+    @apply bg-white text-primary px-6 py-3 rounded-lg font-heading font-semibold border-2 border-primary hover:bg-primary hover:text-white transition-all duration-normal shadow-md hover:shadow-lg inline-flex items-center justify-center;
+  }
+
+  /* Cards */
+  .card {
+    @apply bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-all duration-normal border border-gray-100;
+  }
+
+  .card-title {
+    @apply text-xl font-heading font-semibold text-primary-dark mb-4;
+  }
+
+  /* Hero Section */
+  .hero-section {
+    @apply relative py-20 bg-gradient-to-br from-background-light to-background-warm min-h-[600px] flex items-center;
+  }
+
+  .hero-stripes {
+    @apply absolute inset-0 pointer-events-none;
+  }
+
+  .hero-stripe {
+    @apply absolute h-3 bg-primary transform skew-y-[-12deg] opacity-80;
+    right: -50px;
+  }
+
+  /* Service Icons */
+  .service-icon {
+    @apply w-16 h-16 bg-primary-light rounded-full flex items-center justify-center mb-6;
+  }
+
+  /* Accent Sections */
+  .accent-section {
+    @apply py-16;
+  }
+
+  .accent-section-light {
+    @apply bg-gradient-to-r from-background-light to-background-warm;
+  }
+
+  .accent-section-warm {
+    @apply bg-gradient-to-r from-background-warm to-background-accent;
+  }
+
+  /* Form Elements */
+  .form-label {
+    @apply block text-sm font-heading font-medium text-primary-dark mb-2;
+  }
+
+  .form-input {
+    @apply w-full px-4 py-3 border border-background-light rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition-colors duration-normal;
+  }
+
+  /* Animations */
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+  }
+
+  .animate-fade-in-up {
+    animation: fadeInUp 0.8s ease-out forwards;
+  }
+
+  .animate-slide-in-left {
+    animation: slideInLeft 0.8s ease-out forwards;
+  }
+
+  .animate-bounce-gentle {
+    animation: bounceGentle 2s ease-in-out infinite;
+  }
+}
+
+/* Custom utility styles */
+@layer utilities {
+  /* Custom transition durations */
+  .duration-normal {
+    transition-duration: 300ms;
+  }
+  
+  .duration-slow {
+    transition-duration: 500ms;
+  }
+
+  /* Animation keyframes */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slideInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes bounceGentle {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+  }
+
+  /* Hover effects */
+  .hover-lift {
+    @apply transition-transform duration-normal hover:-translate-y-1;
+  }
+
+  .hover-scale {
+    @apply transition-transform duration-normal hover:scale-105;
+  }
+
+  /* Focus styles */
+  .focus-visible-ring {
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2;
+  }
+} 

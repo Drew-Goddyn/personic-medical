@@ -1,0 +1,26 @@
+{
+  "name": "personic-medical",
+  "version": "1.0.0",
+  "description": "Static website for Personic Medical - modern medical practice website built with HTML5, Tailwind CSS, and Alpine.js",
+  "main": "index.html",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/styles/input.css -o ./src/styles/output.css --watch",
+    "build": "tailwindcss -i ./src/styles/input.css -o ./src/styles/output.css --minify",
+    "serve": "python -m http.server 8000",
+    "dev-serve": "npm run dev & npm run serve"
+  },
+  "keywords": [
+    "medical",
+    "healthcare",
+    "static-site",
+    "tailwindcss",
+    "alpinejs"
+  ],
+  "author": "Personic Medical",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.0",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.10"
+  }
+} 
