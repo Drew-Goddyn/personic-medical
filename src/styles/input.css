@@ -58,7 +58,7 @@
     @apply relative py-20 bg-gradient-to-br from-background-light to-background-warm min-h-[600px] flex items-center;
     background-image: 
       linear-gradient(to bottom right, rgba(182, 187, 133, 0.85), rgba(217, 194, 173, 0.85)),
-      url('../../assets/images/bamboo-forest-1.jpg');
+      url('../../assets/images/peaceful-bamboo.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -88,7 +88,7 @@
     @apply bg-gradient-to-r from-background-light to-background-warm;
     background-image: 
       linear-gradient(to right, rgba(214, 214, 206, 0.9), rgba(217, 194, 173, 0.9)),
-      url('../../assets/images/zen-nature.jpg');
+      url('../../assets/images/zen-forest.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -98,7 +98,7 @@
     @apply bg-gradient-to-r from-background-warm to-background-accent;
     background-image: 
       linear-gradient(to right, rgba(217, 194, 173, 0.87), rgba(229, 157, 99, 0.87)),
-      url('../../assets/images/bamboo-forest-1.jpg');
+      url('../../assets/images/soft-nature.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -110,7 +110,7 @@
     @apply bg-gradient-to-br from-white to-background-light;
     background-image: 
       linear-gradient(to bottom right, rgba(255, 255, 255, 0.95), rgba(214, 214, 206, 0.95)),
-      url('../../assets/images/zen-nature.jpg');
+      url('../../assets/images/zen-forest.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -129,7 +129,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('../../assets/images/bamboo-forest-1.jpg');
+    background-image: url('../../assets/images/peaceful-bamboo.jpg');
     background-size: cover;
     background-position: center;
     opacity: 0.05;
