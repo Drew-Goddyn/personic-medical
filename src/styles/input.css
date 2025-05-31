@@ -53,12 +53,12 @@
     @apply text-xl font-heading font-semibold text-primary-dark mb-4;
   }
 
-  /* Hero Section - Enhanced with calming bamboo forest imagery */
+  /* Hero Section - Enhanced with subtle branch tree texture */
   .hero-section {
     @apply relative py-20 bg-gradient-to-br from-background-light to-background-warm min-h-[600px] flex items-center;
     background-image: 
-      linear-gradient(to bottom right, rgba(182, 187, 133, 0.85), rgba(217, 194, 173, 0.85)),
-      url('../../assets/images/peaceful-bamboo.jpg');
+      linear-gradient(to bottom right, rgba(182, 187, 133, 0.88), rgba(217, 194, 173, 0.88)),
+      url('../../assets/images/branch-tree.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -79,7 +79,7 @@
     @apply w-16 h-16 bg-primary-light rounded-full flex items-center justify-center mb-6;
   }
 
-  /* Accent Sections - Enhanced with zen nature backgrounds */
+  /* Accent Sections - Enhanced with subtle branch patterns */
   .accent-section {
     @apply py-16 relative;
   }
@@ -87,8 +87,8 @@
   .accent-section-light {
     @apply bg-gradient-to-r from-background-light to-background-warm;
     background-image: 
-      linear-gradient(to right, rgba(214, 214, 206, 0.9), rgba(217, 194, 173, 0.9)),
-      url('../../assets/images/bamboo-grove.jpg');
+      linear-gradient(to right, rgba(214, 214, 206, 0.92), rgba(217, 194, 173, 0.92)),
+      url('../../assets/images/branch-trees1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -97,26 +97,26 @@
   .accent-section-warm {
     @apply bg-gradient-to-r from-background-warm to-background-accent;
     background-image: 
-      linear-gradient(to right, rgba(217, 194, 173, 0.87), rgba(229, 157, 99, 0.87)),
-      url('../../assets/images/bamboo-forest-path.jpg');
+      linear-gradient(to right, rgba(217, 194, 173, 0.90), rgba(229, 157, 99, 0.90)),
+      url('../../assets/images/branch-trees2.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
 
-  /* Services/Team sections with peaceful nature background */
+  /* Services/Team sections with subtle branch texture */
   .accent-section-medical {
     @apply bg-gradient-to-br from-white to-background-light;
     background-image: 
-      linear-gradient(to bottom right, rgba(255, 255, 255, 0.95), rgba(214, 214, 206, 0.95)),
-      url('../../assets/images/bamboo-grove.jpg');
+      linear-gradient(to bottom right, rgba(255, 255, 255, 0.96), rgba(214, 214, 206, 0.96)),
+      url('../../assets/images/branch-trees1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
 
-  /* Contact section with calming zen atmosphere */
+  /* Contact section with very subtle branch pattern */
   .contact-section {
     @apply relative py-16;
     background: linear-gradient(135deg, #f8f9fa 0%, rgba(182, 187, 133, 0.1) 100%);
@@ -129,10 +129,10 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('../../assets/images/peaceful-bamboo.jpg');
+    background-image: url('../../assets/images/branch-tree.jpg');
     background-size: cover;
     background-position: center;
-    opacity: 0.05;
+    opacity: 0.03;
     pointer-events: none;
   }
 
