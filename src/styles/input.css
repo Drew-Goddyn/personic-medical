@@ -53,12 +53,12 @@
     @apply text-xl font-heading font-semibold text-primary-dark mb-4;
   }
 
-  /* Hero Section - Enhanced with subtle background imagery */
+  /* Hero Section - Enhanced with calming bamboo forest imagery */
   .hero-section {
     @apply relative py-20 bg-gradient-to-br from-background-light to-background-warm min-h-[600px] flex items-center;
     background-image: 
       linear-gradient(to bottom right, rgba(182, 187, 133, 0.85), rgba(217, 194, 173, 0.85)),
-      url('../../assets/images/medical-bg-1.jpg');
+      url('../../assets/images/bamboo-forest-1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -79,7 +79,7 @@
     @apply w-16 h-16 bg-primary-light rounded-full flex items-center justify-center mb-6;
   }
 
-  /* Accent Sections - Enhanced with subtle background textures */
+  /* Accent Sections - Enhanced with zen nature backgrounds */
   .accent-section {
     @apply py-16 relative;
   }
@@ -88,7 +88,7 @@
     @apply bg-gradient-to-r from-background-light to-background-warm;
     background-image: 
       linear-gradient(to right, rgba(214, 214, 206, 0.9), rgba(217, 194, 173, 0.9)),
-      url('../../assets/images/texture-bg.jpg');
+      url('../../assets/images/zen-nature.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -97,26 +97,26 @@
   .accent-section-warm {
     @apply bg-gradient-to-r from-background-warm to-background-accent;
     background-image: 
-      linear-gradient(to right, rgba(217, 194, 173, 0.85), rgba(229, 157, 99, 0.85)),
-      url('../../assets/images/abstract-bg.jpg');
+      linear-gradient(to right, rgba(217, 194, 173, 0.87), rgba(229, 157, 99, 0.87)),
+      url('../../assets/images/bamboo-forest-1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
 
-  /* Services/Team sections background enhancement */
+  /* Services/Team sections with peaceful nature background */
   .accent-section-medical {
     @apply bg-gradient-to-br from-white to-background-light;
     background-image: 
       linear-gradient(to bottom right, rgba(255, 255, 255, 0.95), rgba(214, 214, 206, 0.95)),
-      url('../../assets/images/medical-bg-2.jpg');
+      url('../../assets/images/zen-nature.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
 
-  /* Contact section with enhanced visual depth */
+  /* Contact section with calming zen atmosphere */
   .contact-section {
     @apply relative py-16;
     background: linear-gradient(135deg, #f8f9fa 0%, rgba(182, 187, 133, 0.1) 100%);
@@ -129,10 +129,10 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('../../assets/images/texture-bg.jpg');
+    background-image: url('../../assets/images/bamboo-forest-1.jpg');
     background-size: cover;
     background-position: center;
-    opacity: 0.03;
+    opacity: 0.05;
     pointer-events: none;
   }
 
