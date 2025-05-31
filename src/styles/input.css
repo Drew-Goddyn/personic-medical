@@ -88,7 +88,7 @@
     @apply bg-gradient-to-r from-background-light to-background-warm;
     background-image: 
       linear-gradient(to right, rgba(214, 214, 206, 0.9), rgba(217, 194, 173, 0.9)),
-      url('../../assets/images/zen-forest.jpg');
+      url('../../assets/images/bamboo-grove.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -98,7 +98,7 @@
     @apply bg-gradient-to-r from-background-warm to-background-accent;
     background-image: 
       linear-gradient(to right, rgba(217, 194, 173, 0.87), rgba(229, 157, 99, 0.87)),
-      url('../../assets/images/soft-nature.jpg');
+      url('../../assets/images/bamboo-forest-path.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -110,7 +110,7 @@
     @apply bg-gradient-to-br from-white to-background-light;
     background-image: 
       linear-gradient(to bottom right, rgba(255, 255, 255, 0.95), rgba(214, 214, 206, 0.95)),
-      url('../../assets/images/zen-forest.jpg');
+      url('../../assets/images/bamboo-grove.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
