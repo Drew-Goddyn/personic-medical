@@ -53,9 +53,16 @@
     @apply text-xl font-heading font-semibold text-primary-dark mb-4;
   }
 
-  /* Hero Section */
+  /* Hero Section - Enhanced with subtle background imagery */
   .hero-section {
     @apply relative py-20 bg-gradient-to-br from-background-light to-background-warm min-h-[600px] flex items-center;
+    background-image: 
+      linear-gradient(to bottom right, rgba(182, 187, 133, 0.85), rgba(217, 194, 173, 0.85)),
+      url('../../assets/images/medical-bg-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 
   .hero-stripes {
@@ -72,17 +79,61 @@
     @apply w-16 h-16 bg-primary-light rounded-full flex items-center justify-center mb-6;
   }
 
-  /* Accent Sections */
+  /* Accent Sections - Enhanced with subtle background textures */
   .accent-section {
-    @apply py-16;
+    @apply py-16 relative;
   }
 
   .accent-section-light {
     @apply bg-gradient-to-r from-background-light to-background-warm;
+    background-image: 
+      linear-gradient(to right, rgba(214, 214, 206, 0.9), rgba(217, 194, 173, 0.9)),
+      url('../../assets/images/texture-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   .accent-section-warm {
     @apply bg-gradient-to-r from-background-warm to-background-accent;
+    background-image: 
+      linear-gradient(to right, rgba(217, 194, 173, 0.85), rgba(229, 157, 99, 0.85)),
+      url('../../assets/images/abstract-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  /* Services/Team sections background enhancement */
+  .accent-section-medical {
+    @apply bg-gradient-to-br from-white to-background-light;
+    background-image: 
+      linear-gradient(to bottom right, rgba(255, 255, 255, 0.95), rgba(214, 214, 206, 0.95)),
+      url('../../assets/images/medical-bg-2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  /* Contact section with enhanced visual depth */
+  .contact-section {
+    @apply relative py-16;
+    background: linear-gradient(135deg, #f8f9fa 0%, rgba(182, 187, 133, 0.1) 100%);
+  }
+
+  .contact-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../../assets/images/texture-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.03;
+    pointer-events: none;
   }
 
   /* Form Elements */
@@ -92,6 +143,7 @@
 
   .form-input {
     @apply w-full px-4 py-3 border border-background-light rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition-colors duration-normal;
+    background: rgba(255, 255, 255, 0.95);
   }
 
   /* Animations */
@@ -176,5 +228,31 @@
   /* Focus styles */
   .focus-visible-ring {
     @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2;
+  }
+
+  /* Background overlay utilities for enhanced text readability */
+  .bg-overlay-light {
+    background: rgba(255, 255, 255, 0.9);
+  }
+
+  .bg-overlay-dark {
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  .bg-overlay-primary {
+    background: rgba(82, 104, 62, 0.9);
+  }
+
+  /* Text shadow utilities for improved readability over backgrounds */
+  .text-shadow-sm {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+
+  .text-shadow-md {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .text-shadow-lg {
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   }
 } 
